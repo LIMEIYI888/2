@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/open1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="Open..." />
+
+        <Button
+            android:id="@+id/ctrl-o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="Ctrl-O" />
+
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/save1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="Save..." />
+
+        <Button
+            android:id="@+id/ctrl-s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="Ctrl-S" />
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/SaveAs1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"/>
+
+        <Button
+            android:id="@+id/SaveAs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="Save As..." />
+
+        <Button
+            android:id="@+id/ctrl-shift-s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="Ctrl-Shift-S" />
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+    <TableRow>
+
+        <Button
+            android:id="@+id/x1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="X"/>
+        <Button
+            android:id="@+id/Import"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="Import..." />
+
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/x2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="X"/>
+
+        <Button
+            android:id="@+id/export"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="Export..." />
+
+        <Button
+            android:id="@+id/ctrl-e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="Ctrl-E" />
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+    <TableRow>
+
+        <Button
+            android:id="@+id/quit1"
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:background="#000000" />
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="Quit" />
+
+    </TableRow>
+</TableLayout>

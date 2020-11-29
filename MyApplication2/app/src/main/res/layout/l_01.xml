@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b11"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="one,one"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="one,two"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/b13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="one,three"
+            android:textColor="#FFFFFF"
+           />
+
+        <Button
+            android:id="@+id/b14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="one,four"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="two,one"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/b22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="two,two"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/b23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="two,three"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/b24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="two,four"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="three,one"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/b32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="three,two"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/b33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="three,three"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/b34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:text="three,four"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:text="four,one"
+                android:textColor="#FFFFFF"
+                />
+
+            <Button
+                android:id="@+id/b42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:text="four,two"
+                android:textColor="#FFFFFF"
+                />
+
+            <Button
+                android:id="@+id/b43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:text="four,three"
+                android:textColor="#FFFFFF"
+                />
+
+            <Button
+                android:id="@+id/b44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:text="four,four"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+</LinearLayout>
